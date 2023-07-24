@@ -1,4 +1,4 @@
-@charset "UTF-8";highlight
+@charset "UTF-8";
 
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
@@ -14,15 +14,15 @@
   --red: #dc3545;
   --orange: #fd7e14;
   --yellow: #ffc107;
-  --green:  #5ace3de0;
-  --teal: #2ad19fbd;
+  --green: #28a745;
+  --teal: #20c997;
   --cyan: #17a2b8;
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
   --primary: #f34235;
   --secondary: #131514;
-  --success: #28a74625;
+  --success: #28a745;
   --info: #17a2b8;
   --warning: #ffc107;
   --danger: #dc3545;
@@ -11007,11 +11007,11 @@ a.text-dark:focus {
 }
 
 :root {
-  --primary-color: #1d351d;
-  --secondary-color: #02983f;
+  --primary-color: #004773;
+  --secondary-color: #002740;
   --font-color: #707070;
   --bg-color: #fff;
-  --heading-color: #069606;
+  --heading-color: #060606;
   --footer-color: #f7f7f7;
   --footer-cpy-color: #040a17;
   --border-radius: 30px;
@@ -11034,8 +11034,8 @@ a.text-dark:focus {
 }
 
 [data-theme="dark"] {
-  --primary-color: #1d351d;
-  --secondary-color: #02983f;
+  --primary-color: #004773;
+  --secondary-color: #002740;
   --font-color: #b7b7b7;
   --bg-color: #171717;
   --heading-color: #fdfffc;
@@ -18058,12 +18058,12 @@ a.logo {
 a.navbar-brand:before,
 a.logo:before {
   content: "";
-  background:  var(--primary-color);
-  width: 1px;
-  height: 1px;
+ /* background: #fff; */
+  width: 269px;
+  height: 5px;
   position: absolute;
   border-radius: 50px 0;
-  top: 2px;
+  top: 4px;
   left: 46px;
 }
 
@@ -18750,11 +18750,11 @@ button.search-btn:hover {
 }
 
 .slide:first-child {
-  background: url(../images/banner1-1.webp) no-repeat center top/cover;
+  background: url(../images/banner1.jpg) no-repeat center top/cover;
 }
 
 .slide:nth-child(2) {
-  background: url(../images/banner2-2.webp) no-repeat center top/cover;
+  background: url(../images/banner2.jpg) no-repeat center top/cover;
 }
 
 .slide:nth-child(3) {
@@ -18762,11 +18762,11 @@ button.search-btn:hover {
 }
 
 .slide:nth-child(4) {
-  background: url(../images/banner4-4.webp) no-repeat center top/cover;
+  background: url(../images/banner4.jpg) no-repeat center top/cover;
 }
 
 .slide:nth-child(5) {
-  background: url(../images/banner5-5.webp) no-repeat center top/cover;
+  background: url(../images/banner5.jpg) no-repeat center top/cover;
 }
 
 .buttons button#prev {
